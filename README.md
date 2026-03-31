@@ -8,16 +8,16 @@ To implement Stop and Wait protocol using NS2 program.
 2.	NS2 Software
 
 # ALGORITHM
-Step 1: Start the program.
-Step 2: Declare the global variables ns for creating a new simulator. Step 3: Open the network animator file in the write mode.
-Step 4: Open the trace file in the write mode. Step 5: Transfer the packets in network.
-Step 6: Create the capable no of nodes.
-Step 7: Create the duplex-link between the nodes including the delay time, bandwidth and dropping queue mechanism.
-Step 8: Set a tcp connection for source node. Step 9: Set the destination node using tcp sink.
-Step 10: Set the window size and the packet size for the tcp. Step 11: Set up the ftp over the tcp connection.
-Step 12: Define the plot window and finish procedure.
-Step 13: In the definition of the finish procedure declare the global variables. Step 14: Close the trace file and namfile and execute the network animation file. Step 15: At the particular time call the finish procedure.
-Step 16: Stop the program.
+* Step 1: Start the program.
+* Step 2: Declare the global variables ns for creating a new simulator. Step 3: Open the network animator file in the write mode.
+* Step 4: Open the trace file in the write mode. Step 5: Transfer the packets in network.
+* Step 6: Create the capable no of nodes.
+* Step 7: Create the duplex-link between the nodes including the delay time, bandwidth and dropping queue mechanism.
+* Step 8: Set a tcp connection for source node. Step 9: Set the destination node using tcp sink.
+* Step 10: Set the window size and the packet size for the tcp. Step 11: Set up the ftp over the tcp connection.
+* Step 12: Define the plot window and finish procedure.
+* Step 13: In the definition of the finish procedure declare the global variables. Step 14: Close the trace file and namfile and execute the network animation file. Step 15: At the particular time call the finish procedure.
+* Step 16: Stop the program.
  
 # PROGRAM
 set ns [new Simulator]
@@ -69,13 +69,7 @@ $ns at 0.0 "$n1 label Receiver"
 $ns run
  
 # OUTPUT
-
-
-
-
-
-
-
+![WhatsApp Image 2026-03-21 at 12 07 09 PM](https://github.com/user-attachments/assets/a4133fc9-ed8b-4b4e-af8d-7a9cd7af7c50)
 
 
 # RESULT
